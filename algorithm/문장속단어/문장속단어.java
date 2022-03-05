@@ -5,6 +5,13 @@ import java.util.*;
 class Main{
     public String solution(String str){
         String result = "";
+        String[] strings = str.split(" ");
+        result = strings[0];
+        for (int i = 1;i<strings.length;i++) {
+            if(strings[i].length() > result.length()) {
+                result = strings[i];
+            }
+        }
 
 
         return result;
