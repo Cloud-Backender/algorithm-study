@@ -4,8 +4,8 @@ package algorithm.단어뒤집기;
 import java.util.*;
 
 class Main{
-    public List<String> solution(int n, String[] str){
-        List<String> result = new ArrayList<>();
+    public ArrayList<String> solution(int n, String[] str){
+        ArrayList<String> result = new ArrayList<>();
         for(String d : str) {
             String tmp = new StringBuilder(d).reverse().toString();
             result.add(tmp);
