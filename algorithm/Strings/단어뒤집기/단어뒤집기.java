@@ -1,4 +1,5 @@
-package algorithm.단어뒤집기;
+package Strings.단어뒤집기;
+
 
  
 import java.util.*;
